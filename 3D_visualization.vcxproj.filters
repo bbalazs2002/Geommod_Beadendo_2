@@ -1,0 +1,478 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="includes\ProgramBuilder.cpp">
+      <Filter>Includes</Filter>
+    </ClCompile>
+    <ClCompile Include="includes\SDL_GLDebugMessageCallback.cpp">
+      <Filter>Includes</Filter>
+    </ClCompile>
+    <ClCompile Include="includes\ObjParser.cpp">
+      <Filter>Includes</Filter>
+    </ClCompile>
+    <ClCompile Include="includes\GLUtils.cpp">
+      <Filter>Includes</Filter>
+    </ClCompile>
+    <ClCompile Include="includes\CameraManipulator.cpp">
+      <Filter>Includes</Filter>
+    </ClCompile>
+    <ClCompile Include="includes\Camera.cpp">
+      <Filter>Includes</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\MyApp.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Models\BezierCurve.cpp">
+      <Filter>Sources\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Models\Material.cpp">
+      <Filter>Sources\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Models\Mesh.cpp">
+      <Filter>Sources\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Models\Model.cpp">
+      <Filter>Sources\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Models\BSpline.cpp">
+      <Filter>Sources\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Models\BezierSurface.cpp">
+      <Filter>Sources\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Models\DiscreteCurve.cpp">
+      <Filter>Sources\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Models\ModelBase.cpp">
+      <Filter>Sources\Models</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="includes\ProgramBuilder.h">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\SDL_GLDebugMessageCallback.h">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\ObjParser.h">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\GLUtils.hpp">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\CameraManipulator.h">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Camera.h">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\ModelBase.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\MyApp.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Log.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Transformation.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\config.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\include_all.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Types.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Interfaces\IDrawable.h">
+      <Filter>Headers\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Interfaces\IPrintable.h">
+      <Filter>Headers\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Material.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Classes.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Surfaces\BezierSurface.h">
+      <Filter>Headers\Surfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Curves\BezierCurve.h">
+      <Filter>Headers\Curves</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Curves\BSpline.h">
+      <Filter>Headers\Curves</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Curves\BSplineInterpolation.h">
+      <Filter>Headers\Curves</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Curves\DiscreteCurve.h">
+      <Filter>Headers\Curves</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Models\Mesh.h">
+      <Filter>Headers\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Models\Model.h">
+      <Filter>Headers\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Models\ModelLoader.h">
+      <Filter>Headers\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Lights\Light.h">
+      <Filter>Headers\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Lights\DirectionalLight.h">
+      <Filter>Headers\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Lights\PointLight.h">
+      <Filter>Headers\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Lights\SpotLight.h">
+      <Filter>Headers\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Surfaces\BezierSurfaceInterpolation.h">
+      <Filter>Headers\Surfaces</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\lab_xneg.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\lab_xpos.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\lab_yneg.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\lab_ypos.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\lab_zneg.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\lab_zpos.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\metal.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\nx.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\nz.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\ny.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\px.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\py.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\pz.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\xneg.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\xpos.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\yneg.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\ypos.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\zneg.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\zpos.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\heightmap_dot.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\spikes.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Earth-heightmap-small.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\desert-heightmap.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\Axes\Frag_PosCol.frag">
+      <Filter>Shaders\Axes</Filter>
+    </None>
+    <None Include="Shaders\Axes\Vert_axes.vert">
+      <Filter>Shaders\Axes</Filter>
+    </None>
+    <None Include="Shaders\Skybox\Frag_skybox_skeleton.frag">
+      <Filter>Shaders\Skybox</Filter>
+    </None>
+    <None Include="Shaders\Skybox\Vert_skybox.vert">
+      <Filter>Shaders\Skybox</Filter>
+    </None>
+    <None Include="Shaders\Models\Vert_Model.vert">
+      <Filter>Shaders\Models</Filter>
+    </None>
+    <None Include="Shaders\Models\Frag_Lighting.frag">
+      <Filter>Shaders\Models</Filter>
+    </None>
+    <None Include="Shaders\Models\Frag_Selected.frag">
+      <Filter>Shaders\Models</Filter>
+    </None>
+    <None Include="Shaders\Models\Vert_Selected.vert">
+      <Filter>Shaders\Models</Filter>
+    </None>
+    <None Include="Shaders\Shadow\Vert_Shadow.vert">
+      <Filter>Shaders\Shadow</Filter>
+    </None>
+    <None Include="Shaders\BSpline\Vert_BSpline.vert">
+      <Filter>Shaders\BSpline</Filter>
+    </None>
+    <None Include="Shaders\BSpline\Frag_BSpline.frag">
+      <Filter>Shaders\BSpline</Filter>
+    </None>
+    <None Include="Shaders\BezierSurface\Frag_BezierSurface.frag">
+      <Filter>Shaders\BezierSurface</Filter>
+    </None>
+    <None Include="Shaders\BezierSurface\Frag_BezierSurfaceSelected.frag">
+      <Filter>Shaders\BezierSurface</Filter>
+    </None>
+    <None Include="Shaders\BezierSurface\Vert_BezierSurfaceSelected.vert">
+      <Filter>Shaders\BezierSurface</Filter>
+    </None>
+    <None Include="Shaders\BezierSurface\Vert_BezierSurface.vert">
+      <Filter>Shaders\BezierSurface</Filter>
+    </None>
+    <None Include="Shaders\Vert_PosNormTex.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\Frag_Simple.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\BSpline\Vert_BSplineSelected.vert">
+      <Filter>Shaders\BSpline</Filter>
+    </None>
+    <None Include="Shaders\DiscreteCurve\Frag_DiscreteCurve.frag">
+      <Filter>Shaders\DiscreteCurve</Filter>
+    </None>
+    <None Include="Shaders\DiscreteCurve\Vert_DiscreteCurve.vert">
+      <Filter>Shaders\DiscreteCurve</Filter>
+    </None>
+    <None Include="Shaders\DiscreteCurve\Vert_DiscreteCurveSelected.vert">
+      <Filter>Shaders\DiscreteCurve</Filter>
+    </None>
+    <None Include="Shaders\Modules\Math.glsl">
+      <Filter>Shaders\Modules</Filter>
+    </None>
+    <None Include="Shaders\Modules\ClickHandler\ClickHandler_uniforms.glsl">
+      <Filter>Shaders\Modules\ClickHandler</Filter>
+    </None>
+    <None Include="Shaders\Modules\ClickHandler\ClickHandler.glsl">
+      <Filter>Shaders\Modules\ClickHandler</Filter>
+    </None>
+    <None Include="Shaders\Modules\Material\Material.glsl">
+      <Filter>Shaders\Modules\Material</Filter>
+    </None>
+    <None Include="Shaders\Modules\Camera\Camera.glsl">
+      <Filter>Shaders\Modules\Camera</Filter>
+    </None>
+    <None Include="Shaders\Modules\Camera\Camera_uniforms.glsl">
+      <Filter>Shaders\Modules\Camera</Filter>
+    </None>
+    <None Include="Shaders\Modules\Transform\Transform.glsl">
+      <Filter>Shaders\Modules\Transform</Filter>
+    </None>
+    <None Include="Shaders\Modules\Transform\Transform_uniforms.glsl">
+      <Filter>Shaders\Modules\Transform</Filter>
+    </None>
+    <None Include="Shaders\Modules\Color\Color.glsl">
+      <Filter>Shaders\Modules\Color</Filter>
+    </None>
+    <None Include="Shaders\Modules\Color\Color_uniforms.glsl">
+      <Filter>Shaders\Modules\Color</Filter>
+    </None>
+    <None Include="Shaders\Modules\ObjectTypes\BezierCurve\BezierCurve.glsl">
+      <Filter>Shaders\Modules\ObjectTypes\BezierCurve</Filter>
+    </None>
+    <None Include="Shaders\Modules\ObjectTypes\BezierCurve\BezierCurve_uniforms.glsl">
+      <Filter>Shaders\Modules\ObjectTypes\BezierCurve</Filter>
+    </None>
+    <None Include="Shaders\BezierCurve\Vert_Bezier.vert">
+      <Filter>Shaders\BezierCurve</Filter>
+    </None>
+    <None Include="Shaders\BezierCurve\Vert_BezierSelected.vert">
+      <Filter>Shaders\BezierCurve</Filter>
+    </None>
+    <None Include="Shaders\BezierCurve\Frag_Bezier.frag">
+      <Filter>Shaders\BezierCurve</Filter>
+    </None>
+    <None Include="Shaders\Modules\Material\Material_uniforms.glsl">
+      <Filter>Shaders\Modules\Material</Filter>
+    </None>
+    <None Include="Shaders\Modules\Light\Light.glsl">
+      <Filter>Shaders\Modules\Light</Filter>
+    </None>
+    <None Include="Shaders\Modules\Light\Light_uniforms.glsl">
+      <Filter>Shaders\Modules\Light</Filter>
+    </None>
+    <None Include="Shaders\Modules\ObjectTypes\BSpline\BSpline.glsl">
+      <Filter>Shaders\Modules\ObjectTypes\BSpline</Filter>
+    </None>
+    <None Include="Shaders\Modules\ObjectTypes\BSpline\BSpline_uniforms.glsl">
+      <Filter>Shaders\Modules\ObjectTypes\BSpline</Filter>
+    </None>
+    <None Include="Shaders\Modules\ObjectTypes\DiscreteCurve\DiscreteCurve.glsl">
+      <Filter>Shaders\Modules\ObjectTypes\DiscreteCurve</Filter>
+    </None>
+    <None Include="Shaders\Modules\ObjectTypes\DiscreteCurve\DiscreteCurve_uniforms.glsl">
+      <Filter>Shaders\Modules\ObjectTypes\DiscreteCurve</Filter>
+    </None>
+    <None Include="Shaders\Modules\ObjectTypes\BezierSurface\BezierSurface.glsl">
+      <Filter>Shaders\Modules\ObjectTypes\BezierSurface</Filter>
+    </None>
+    <None Include="Shaders\Modules\ObjectTypes\BezierSurface\BezierSurface_uniforms.glsl">
+      <Filter>Shaders\Modules\ObjectTypes\BezierSurface</Filter>
+    </None>
+    <None Include="Shaders\Modules\Light\Vert_DirectionSelection.vert">
+      <Filter>Shaders\Modules\Light</Filter>
+    </None>
+    <None Include="Shaders\Modules\Light\Frag_LightSelection.frag">
+      <Filter>Shaders\Modules\Light</Filter>
+    </None>
+    <None Include="Shaders\Modules\Light\Vert_PointSelection.vert">
+      <Filter>Shaders\Modules\Light</Filter>
+    </None>
+    <None Include="Shaders\Modules\Light\Vert_SpotSelection.vert">
+      <Filter>Shaders\Modules\Light</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Assets\cube.obj">
+      <Filter>Assets</Filter>
+    </Text>
+    <Text Include="Assets\ico-sphere-3.obj">
+      <Filter>Assets</Filter>
+    </Text>
+    <Text Include="Assets\ico-sphere-4.obj">
+      <Filter>Assets</Filter>
+    </Text>
+    <Text Include="Assets\Suzanne.obj">
+      <Filter>Assets</Filter>
+    </Text>
+    <Text Include="Assets\uv-sphere-32.obj">
+      <Filter>Assets</Filter>
+    </Text>
+    <Text Include="Assets\uv-sphere-64.obj">
+      <Filter>Assets</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{dc1b0883-f86b-4752-b1de-a571bafb16aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{33f73cb3-71e5-4dee-93f0-35a118e8c44f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{b647236b-98a4-4c74-ad31-9ef242ac10b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes">
+      <UniqueIdentifier>{a21c0227-c922-4e18-92d3-090a65cd527f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{3ad2ad83-03c1-4a81-94eb-6504f885bcad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Axes">
+      <UniqueIdentifier>{1cdc5433-7cef-4630-87b4-1dc0ae1adedf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Skybox">
+      <UniqueIdentifier>{635ef6e0-8067-4c35-8e10-1577557036a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Models">
+      <UniqueIdentifier>{00816edf-bbb7-462c-97e7-3ca45691a18a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Shadow">
+      <UniqueIdentifier>{090520a3-be30-4e98-8534-672812a7f5aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Interfaces">
+      <UniqueIdentifier>{833306ea-db4e-4e26-902e-302965913292}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Models">
+      <UniqueIdentifier>{5909df44-71b3-4737-9994-ca5a561f0af3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\BSpline">
+      <UniqueIdentifier>{665623af-d015-43b6-9cf7-0405ad5af426}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Surfaces">
+      <UniqueIdentifier>{bbaa54f1-9118-4fcc-9aca-0a31c296ffc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\BezierSurface">
+      <UniqueIdentifier>{cfc39ced-41c2-43aa-a016-c5a53c04f731}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\DiscreteCurve">
+      <UniqueIdentifier>{91f6c85c-8620-400b-9027-5472bfba5c26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Curves">
+      <UniqueIdentifier>{1ebca7b4-d18c-47fb-9778-501d1159fb79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Modules">
+      <UniqueIdentifier>{fdff6cae-9011-4ec0-b37c-edb0e4b10a80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Modules\ClickHandler">
+      <UniqueIdentifier>{e4ba56b0-57af-45d6-abaa-dfbcf30bf23a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Modules\Material">
+      <UniqueIdentifier>{f3d0d101-9787-4495-8beb-6117b00d959f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Modules\Camera">
+      <UniqueIdentifier>{24e72b45-d06a-4e34-955b-8a6809737171}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Modules\Transform">
+      <UniqueIdentifier>{5d40370e-d6dc-45ec-9b88-4963f20e7e6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Modules\Color">
+      <UniqueIdentifier>{beb8dd80-5c50-4c0c-a1ba-c0df10eabc4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Modules\ObjectTypes">
+      <UniqueIdentifier>{7448a575-4865-4d28-b342-0c31e82d3f67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Modules\ObjectTypes\BezierCurve">
+      <UniqueIdentifier>{a4316a89-aec4-4b41-aca4-46ddc6344beb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\BezierCurve">
+      <UniqueIdentifier>{057c0e8f-7db8-44dd-81b0-2e6be86924d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Modules\Light">
+      <UniqueIdentifier>{5e47b509-7b9d-4086-91df-c2fb2386d3be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Modules\ObjectTypes\BSpline">
+      <UniqueIdentifier>{612f8163-a9ac-4ecd-915f-3d318d85aeff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Modules\ObjectTypes\DiscreteCurve">
+      <UniqueIdentifier>{5716852c-d95b-41ba-a681-e7de6b0eb9b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Modules\ObjectTypes\BezierSurface">
+      <UniqueIdentifier>{eda74913-6985-4b07-aeda-c71745fda4d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Models">
+      <UniqueIdentifier>{bb4cf1d5-672e-42fb-b061-5c7f360faf8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Lights">
+      <UniqueIdentifier>{7a3fead9-bcee-4131-b044-fe4ff9faa161}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
